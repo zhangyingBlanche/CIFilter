@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>二维码.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>二维码生成.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>滤镜.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C3475D101F284BB500DD3ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3475D2E1F284CD800DD3ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3475D461F284CD800DD3ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3475D511F284CD800DD3ABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C396B9431F132EC600408C79</key>
 		<dict>
 			<key>primary</key>

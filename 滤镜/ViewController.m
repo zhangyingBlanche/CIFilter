@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <SpriteKit/SpriteKit.h>
 #import <ImageIO/ImageIO.h>
+
 @interface ViewController ()
 {
     int i;
@@ -63,6 +64,8 @@
         [request finishWithImage:outimage context:nil];
     }];
     
+    
+    //检测人脸
     CIImage *myImage=[[CIImage alloc]init];
     CIContext *context = [CIContext context];                    // 1
     NSDictionary *opts = @{ CIDetectorAccuracy : CIDetectorAccuracyHigh };      // 2
@@ -70,7 +73,7 @@
                                               context:context
                                               options:opts];                    // 3
     
-    //检测人脸
+    
    opts = @{ CIDetectorImageOrientation :[[inputImage properties] valueForKey:kCGImagePropertyOrientation] }; // 4
     NSArray *features = [detector featuresInImage:inputImage options:opts];
     
